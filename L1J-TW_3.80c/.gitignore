@@ -1,3 +1,18 @@
+# Windows thumbnail db
+Thumbs.db
+
+# Mc
+.DS_Store
+
+# eclipse
+.classpath
+.project
+.settings/
+
+# intelliJ
+.idea/
+*.iml
+
 log/
 data/mapcache/
 db/l1jdb_Taiwan.sql
