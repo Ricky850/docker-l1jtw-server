@@ -472,7 +472,7 @@ public class L1PcInstance extends L1Character {
 						}
 					}
 				}
-				if (hasSkillEffect(GMSTATUS_HPBAR) && L1HpBar.isHpBarTarget(visible)) {
+				if (hasSkillEffect(GMSTATUS_HPBAR) && L1HpBar.isHpBarTarget(visible) || Config.NPC_HP_BAR) {
 					sendPackets(new S_HPMeter((L1Character) visible));
 				}
 			}

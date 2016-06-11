@@ -177,6 +177,8 @@ public final class Config {
 
 	public static boolean ALT_ATKMSG;
 
+    public static boolean NPC_HP_BAR;
+
 	public static boolean CHANGE_TITLE_BY_ONESELF;
 
 	public static int MAX_CLAN_MEMBER;
@@ -547,6 +549,7 @@ public final class Config {
 			LOOTING_RANGE = Integer.parseInt(altSettings.getProperty("LootingRange", "3"));
 			ALT_NONPVP = Boolean.parseBoolean(altSettings.getProperty("NonPvP", "true"));
 			ALT_ATKMSG = Boolean.parseBoolean(altSettings.getProperty("AttackMessageOn", "true"));
+            NPC_HP_BAR = Boolean.parseBoolean(altSettings.getProperty("NpcHpBar", "false"));
 			CHANGE_TITLE_BY_ONESELF = Boolean.parseBoolean(altSettings.getProperty("ChangeTitleByOneself", "false"));
 			MAX_CLAN_MEMBER = Integer.parseInt(altSettings.getProperty("MaxClanMember", "0"));
 			CLAN_ALLIANCE = Boolean.parseBoolean(altSettings.getProperty("ClanAlliance", "true"));
