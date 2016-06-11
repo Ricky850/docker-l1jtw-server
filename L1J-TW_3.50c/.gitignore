@@ -16,3 +16,6 @@ Thumbs.db
 log/
 data/mapcache/
 db/l1jdb_Taiwan.sql
+
+l1jloader.jar
+l1jserver.jar
